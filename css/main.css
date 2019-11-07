@@ -159,7 +159,7 @@ nav {
 
 body {
   position: relative;
-  font-family: "Montserrat-Medium", sans-serif;
+  font-family: "LatoWeb", sans-serif;
   font-size: 1rem;
   padding: 0;
   margin: 0;
@@ -167,6 +167,24 @@ body {
   background-color: #F2F2F2; /*off-white colour*/
 }
 
+/* GENERAL TAGS, TAG CLASSES ////////////////////////////////////////////////////////////// */
+
+
+h1 {
+    font-family: "LatoLatinWebBlack", sans-serif;
+}
+
+h2 {
+    font-family: "LatoWebBold", sans-serif;
+}
+
+h3 {
+    font-family: "LatoWebSemibold", sans-serif;
+}
+
+.skills {
+  list-style-type: circle;
+}
 
 
 /* COLUMNS ////////////////////////////////////////////////////////////// */
@@ -244,6 +262,11 @@ body {
   color: white;
 }
 
+#bold {
+  font-family: "LatoLatinWebHeavy";
+}
+
+
 /* TAG ELEMENTS////////////////////////////////////////////////////////////// */
 
 a{
@@ -259,6 +282,10 @@ a:hover {
 
 h4{
   margin-bottom: 0.5em;
+}
+
+h1, h2, h3 {
+  margin: 0;
 }
 
 /* FOOTER ////////////////////////////////////////////////////////////// */
