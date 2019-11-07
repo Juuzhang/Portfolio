@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>P02 - Group Website</title>
+  <link href="../css/main.css" rel="stylesheet">
+  <link href="../css/fonts.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+
+    <input class="hide" type="checkbox" id="hamburger" />
+
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <div class="container">
+
+    <h1>Style Guide</h1>
+    <p>
+      This is the style guide for this portfolio.
+    </p>
+
+
+    <section class="row">
+
+      <div class="column1">
+
+        <h2>Font and Colour Choices</h2>
+        <h3>Montserrat</h3>
+        <p>The quick fox jumps over the lazy dog</p>
+        <p id="bold">The quick fox jumps over the lazy dog</p>
+        <p id="italic">The quick fox jumps over the lazy dog</p>
+
+
+      </div>
+
+
+      <div class="column2">
+
+        <h2>Colour Guide</h2>
+
+        <h3>Primary and Secondary Colours</h3>
+        <p>These are the following colours for the Nut Hut's colour guide.</p>
+
+        <p> Primary Colours</p>
+        <div id="colour1">
+          <p>#253b59</p>
+        </div>
+        <div id="colour2">
+          <p>#F2C49B</p>
+        </div>
+        <div id="colour3">
+          <p>#F26D6D</p>
+        </div>
+        <div id="colour4">
+          <p>#F2A7A7</p>
+        </div>
+
+
+      </div>
+
+    </section>
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+
+
+    <h2>Interactive Elements</h2>
+
+    <section class="row">
+      <div class="column1">
+        <h3>In-text link</h3>
+        <p>This is a link to the <a href="https://www.google.com/">Nut Hut.</a></p>
+
+        <!-- Default Button styling section -->
+
+        <h3>Rendered element:</h3>
+        <a class="button-nav" href="#">Default Button</a>
+        <h4>Sample code:</h4>
+        <code>&lt;a class="button-nav" href="#"&gt;Default button&lt;/a&gt;</code>
+      </div>
+
+
+
+      <div class="column2">
+
+        <h3>Image as a Link</h3>
+        <a href="https://en.wikipedia.org/wiki/Walnut" class="Greyscale"><img src="../images/walnuts.png" alt="Walnuts" width="20%">
+        </a>
+        <!-- I learned this is how you wrap a link to an image. -->
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href = "https://canon.ca/en/" class="Greyscale"&gt; &lt;img src="images/Camera.jpeg" alt="Canon DSLR"&gt;</code>
+        <code>&lt;a href = "https://en.wikipedia.org/wiki/Nut_(fruit)" class="Greyscale"&gt; &lt;img src="../images/Camera.jpeg" alt="Canon DSLR"&gt;</code>
+
+
+    </section>
+
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+    <!-- TEXT ELEMENTS SECTION // -->
+
+    <section class="row">
+      <div class="column1">
+        <h2>Text Elements</h2>
+
+        <h3>Headings</h3>
+        <h2>Heading 1</h2>
+        <h3>Heading 2</h3>
+        <h4>Heading 3</h4>
+        <h5>Heading 4</h5>
+        <!-- I learned that there's more than 6 headings in HTML -->
+        <h4>Sample code:</h4>
+        <code>&lt;h2&gt;Heading 1&lt;/h2&gt;</code>
+      </div>
+
+      <div class="column2">
+        <h3>Paragraphs</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit pulvinar lorem sit amet luctus. Pellentesque vel sem porttitor, lobortis urna vitae, ultrices nisi. Nam sit amet nunc velit. Vestibulum vitae ex rhoncus, tempor leo
+          sit amet, hendrerit magna. Praesent lacinia risus tristique purus maximus porta. Duis tempor semper sem, nec mollis erat molestie quis. Sed finibus aliquet orci. Integer mauris ex, tincidunt quis tortor vitae, molestie gravida felis.</p>
+        <p>Ut rhoncus egestas tortor eget accumsan. Etiam feugiat hendrerit neque, vitae efficitur nulla maximus eu. Nullam tincidunt justo at velit sodales malesuada. Nam tincidunt ex metus, non laoreet nulla sollicitudin vel. Praesent non tellus
+          velit. Duis feugiat ex non felis dapibus, non faucibus nulla posuere. Pellentesque ut lectus nisl. Vestibulum quis orci porttitor, aliquam metus at, iaculis nulla. Duis orci felis, efficitur ac ullamcorper a, elementum vitae ligula. Duis
+          sit amet nisi a ex gravida sagittis. Donec vestibulum, nisi a aliquet consequat, metus eros euismod purus, non fringilla turpis neque et sem. Praesent libero felis, elementum et auctor in, interdum at nisl. Curabitur sodales consectetur
+          diam quis sodales.</p>
+        <!-- I learned how just adding another <p> tag makes a space for the next paragraph already, and I also learned how <br> breaks the line and allows for spaces in webpages -->
+        <h4>Sample code:</h4>
+        <code>&lt;p&gt; This is a paragraph &lt;/p&gt;</code>
+
+      </div>
+    </section>
+
+
+
+      <h3>Numbered Lists</h3>
+      <ol>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+      </ol>
+      <h4>Sample code:</h4>
+      <code>&lt;ol&gt;&lt;li&gt;Navigation Button&lt;/li&gt;&lt;/ol&gt;</code>
+
+
+
+
+  </div>
+
+  <footer>
+    <a href="citations.html">Citations</a> |
+    <a href="styleguide.html">Style Guide</a> |
+    <a href="https://github.com/Juuzhang/P02_Website">GitHub</a>
+  </footer>
+
+</body>
+
+</html>
