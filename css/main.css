@@ -61,9 +61,6 @@ nav ul li a:active, nav ul li a:hover, nav ul li a:focus {
 
 @media only screen and (max-width: 746px) {
 
-  /*#nav-bar li a{
-  visibility: hidden;
-} */
   header {
     width: 100%;
     height: 3rem;
@@ -138,7 +135,9 @@ nav ul li a:active, nav ul li a:hover, nav ul li a:focus {
 /* BODY CONTAINER ////////////////////////////////////////////////////////////// */
 .container {
   position: relative;
-  padding: 3rem;
+  padding-top: 3rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
   content: "";
   min-height: 700px;
   width: 100%;
@@ -153,6 +152,16 @@ body {
   color: #253B59;
   background-color: #F2F2F2;
   /*off-white colour*/
+}
+
+@media only screen and (max-width: 746px) {
+  .container {
+    position: relative;
+    padding: 3rem;
+    content: "";
+    min-height: 700px;
+    width: 100%;
+  }
 }
 
 /* GENERAL TAGS, TAG CLASSES ////////////////////////////////////////////////////////////// */
@@ -200,6 +209,25 @@ strong {
   width: 49%;
 }
 
+#SkillsColumnDiv {
+  width: 60%;
+}
+
+.SkillsBox {
+  padding-top: 2em;
+  padding-left: 2em;
+}
+
+.SkillsColumn1 {
+  float: left;
+  width: 33%;
+}
+
+.SkillsColumn2 {
+  float: left;
+  width: 33%;
+}
+
 @media only screen and (max-width: 746px) {
   .column1 {
     width: 100%;
@@ -209,7 +237,17 @@ strong {
     width: 100%;
   }
 
+  #SkillsColumnDiv {
+    width: 100%;
+  }
 
+  .SkillsColumn1 {
+    width: 50%;
+  }
+
+  .SkillsColumn2 {
+    width: 50%;
+  }
 }
 
 /* DIV IDS ////////////////////////////////////////////////////////////// */
@@ -253,18 +291,33 @@ strong {
   color: white;
 }
 
+#colour5 {
+  float: left;
+  padding: 1em;
+  background: #00CED1;
+}
+
+#colour5 p {
+  color: white;
+}
+
 #bold {
   font-family: "LatoLatinWebHeavy";
 }
 
 /* TAG ELEMENTS////////////////////////////////////////////////////////////// */
+
+nav ul li a {
+    color: #F2C49B;
+}
+
 a {
-  color: #F2C49B;
+  color: #00CED1;
   text-decoration: none;
 }
 
 a:hover {
-  color: black;
+  color: #F2C49B;
   transition: 0.5s;
   transition-duration: 0.5s;
 }
@@ -283,8 +336,7 @@ h1, h2, h3 {
 }
 
 /* DIV CLASSES////////////////////////////////////////////////////////////// */
-
-.ProjectBoxes{
+.ProjectBoxes {
   float: left;
   text-align: center;
   width: 24em;
@@ -296,7 +348,7 @@ h1, h2, h3 {
   height: 10em;
 }
 
-.ProjectBoxes:active, .ProjectBoxes:hover, .ProjectBoxes:focus{
+.ProjectBoxes:active, .ProjectBoxes:hover, .ProjectBoxes:focus {
   background-color: #F2C49B;
   left: 0;
   color: white;
@@ -304,7 +356,6 @@ h1, h2, h3 {
   transition: 0.3s;
   transition-duration: 0.3s;
 }
-
 
 /* FOOTER ////////////////////////////////////////////////////////////// */
 footer {
