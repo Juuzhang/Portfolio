@@ -136,8 +136,8 @@ nav ul li a:active, nav ul li a:hover, nav ul li a:focus {
 .container {
   position: relative;
   padding-top: 3rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 5%;
+  padding-right: 5%;
   content: "";
   min-height: 700px;
   width: 100%;
@@ -204,6 +204,12 @@ strong {
   padding-right: 2rem;
 }
 
+.column1Image {
+  float: left;
+  padding-right: 2em;
+  width: 49%;
+}
+
 .column2 {
   float: left;
   width: 49%;
@@ -229,7 +235,16 @@ strong {
 }
 
 @media only screen and (max-width: 746px) {
+
+  .container {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
   .column1 {
+    width: 100%;
+  }
+
+  .column1Image {
     width: 100%;
   }
 
