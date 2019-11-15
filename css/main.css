@@ -350,6 +350,10 @@ h1, h2, h3 {
   width: 75%;
 }
 
+.paragraph {
+  line-height: 2;
+}
+
 /* DIV CLASSES////////////////////////////////////////////////////////////// */
 .ProjectBoxes {
   float: left;
