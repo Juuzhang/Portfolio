@@ -1,0 +1,106 @@
+#bannerSVG{
+  padding-top: 5em;
+}
+
+
+/* CLOUDS /////////////////////////// */
+
+.rightBgClouds{
+  transform: scale(1.0);
+  animation: slideLeft 3s linear,
+            5s slideBounceLeft 3s infinite;
+
+}
+
+.rightBgClouds2 {
+  animation: slideLeft2 2s linear,
+            4s slideBounceLeft 2s infinite;
+
+}
+
+.leftBgClouds{
+  animation: slideRight 3s linear,
+  5s slideBounceRight 3s infinite;
+}
+
+.leftBgClouds2{
+  animation: slideRight 2s linear,
+  3s slideBounceRight 2s infinite;
+}
+
+/* SUN ///////////////////////////////////////////////////// */
+
+
+
+/* MIST ///////////////////////////////////////////////////// */
+
+.MistTop, .MistBottom{
+      animation: fadein 3s linear;
+}
+
+/* KEYFRAMES /////////////////////////////////////// */
+
+@keyframes slideLeft {
+  0% {
+    transform: translate(650px);
+  }
+
+  100% {
+    transform: translate(30px);
+  }
+}
+
+@keyframes slideLeft2 {
+  0% {
+    transform: translate(300px);
+  }
+
+  100% {
+    transform: translate(30px);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translate(-150px);
+  }
+
+  100% {
+    transform: translate(-10px);
+
+  }
+
+}
+
+
+@keyframes slideBounceLeft {
+  0% {
+    transform: translate(30px);
+  }
+  50% {
+    transform: translate(50px);
+  }
+
+  100% {
+    transform: translate(30px);
+  }
+}
+
+@keyframes slideBounceRight {
+  0% {
+    transform: translate(-10px);
+  }
+  50% {
+    transform: translate(-20px);
+  }
+
+  100% {
+    transform: translate(-10px);
+  }
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
