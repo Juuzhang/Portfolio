@@ -134,25 +134,26 @@ nav ul li a:active, nav ul li a:hover, nav ul li a:focus {
 /* BODY CONTAINER ////////////////////////////////////////////////////////////// */
 .container {
   position: relative;
-  padding-top: 3rem;
+  padding-top: 1em;
   padding-left: 5%;
   padding-right: 5%;
   content: "";
-  min-height: 700px;
+  min-height: 300px;
   width: 100%;
 }
 
 .banner {
   bottom: 0px;
   margin: 0;
+  padding-top: 0;
+  position: relative;
   background: rgb(242, 196, 155);
   background: linear-gradient(148deg, rgba(242, 196, 155, 1) 0%, rgba(242, 167, 167, 1) 47%);
   width: 100%;
-  height: 48em;
+  height: 40em;
 }
 
 body {
-  position: relative;
   font-family: "LatoWeb", sans-serif;
   font-size: 1rem;
   padding: 0;
@@ -173,10 +174,9 @@ body {
 }
 
 /* SVG //////////////////////////////////////////////////////////////////////////////////// */
-
 #bannerSVG {
-  position: relative;
-background-position: bottom;
+  position: absolute;
+  padding: 0;
 }
 
 /* GENERAL TAGS, TAG CLASSES ////////////////////////////////////////////////////////////// */
@@ -213,6 +213,7 @@ strong {
 }
 
 .column1 {
+  position: relative;
   float: left;
   width: 49%;
   padding-left: 2rem;
@@ -231,7 +232,11 @@ strong {
 }
 
 #SkillsColumnDiv {
-  width: 60%;
+  width: 100%;
+  color: white;
+  padding: 4em;
+  background: linear-gradient(148deg, rgba(242, 196, 155, 1) 0%, rgba(242, 167, 167, 1) 47%);
+  height: 40em;
 }
 
 .SkillsBox {
@@ -267,9 +272,9 @@ strong {
     width: 100%;
   }
 
-  #SkillsColumnDiv {
-    width: 100%;
-  }
+#SkillsColumnDiv{
+  height: 50em;
+}
 
   .SkillsColumn1 {
     width: 50%;
@@ -278,9 +283,78 @@ strong {
   .SkillsColumn2 {
     width: 50%;
   }
+
+  .banner {
+    display: block;
+  }
+
+
+
+  #bannerTextContainer {
+    display: none;
+  }
+
+  #bannerSVG {
+    display: none;
+  }
+
+  #bannerMobileText {
+    display: block;
+    padding: 2em 1em 0 1em;
+    margin: 0;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+  }
+
+  #bannerMobileTextParagraph {
+    display: block;
+    padding: 0 1em 1em 1em;
+    margin: 0;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 746px) {
+  #bannerMobileText {
+    display: none;
+  }
+
+  #bannerMobileTextParagraph {
+    display: none;
+  }
+
 }
 
 /* DIV IDS ////////////////////////////////////////////////////////////// */
+#bannerText {
+  padding: 0 0 0 0;
+  float: left;
+  font-size: 4em;
+  color: white;
+}
+
+#bannerTextContainer {
+  bottom: 0px;
+  margin: 0;
+  padding-top: 20em;
+  padding-left: 2em;
+  position: absolute;
+  width: 100%;
+  height: 47em;
+}
+
+#TextSwitch {
+  padding: 0 0 0 0;
+  float: left;
+  text-align: left;
+  font-size: 3em;
+  color: white;
+  clear: both;
+}
+
 #colour1 {
   float: left;
   padding: 1em;
