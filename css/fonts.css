@@ -7,7 +7,7 @@
          url('fonts/Lato-Black.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: Lato-BlackItalic */@font-face {
@@ -19,7 +19,7 @@
          url('fonts/Lato-BlackItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: Lato-Bold */@font-face {
@@ -31,7 +31,7 @@
          url('fonts/Lato-Bold.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: Lato-BoldItalic */@font-face {
@@ -43,7 +43,7 @@
          url('fonts/Lato-BoldItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: Lato-Hairline */@font-face {
@@ -55,7 +55,7 @@
          url('fonts/Lato-Hairline.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: Lato-HairlineItalic */@font-face {
@@ -67,7 +67,7 @@
          url('fonts/Lato-HairlineItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: Lato-Heavy */@font-face {
@@ -79,7 +79,7 @@
          url('fonts/Lato-Heavy.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: Lato-HeavyItalic */@font-face {
@@ -91,7 +91,7 @@
          url('fonts/Lato-HeavyItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: Lato-Italic */@font-face {
@@ -103,7 +103,7 @@
          url('fonts/Lato-Italic.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: Lato-Light */@font-face {
@@ -115,7 +115,7 @@
          url('fonts/Lato-Light.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: Lato-LightItalic */@font-face {
@@ -127,7 +127,7 @@
          url('fonts/Lato-LightItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: Lato-Medium */@font-face {
@@ -139,7 +139,7 @@
          url('fonts/Lato-Medium.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: Lato-MediumItalic */@font-face {
@@ -151,7 +151,7 @@
          url('fonts/Lato-MediumItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: Lato-Regular */@font-face {
@@ -163,7 +163,7 @@
          url('fonts/Lato-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: Lato-Semibold */@font-face {
@@ -175,7 +175,7 @@
          url('fonts/Lato-Semibold.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: Lato-SemiboldItalic */@font-face {
@@ -187,7 +187,7 @@
          url('fonts/Lato-SemiboldItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: Lato-Thin */@font-face {
@@ -199,7 +199,7 @@
          url('fonts/Lato-Thin.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: Lato-ThinItalic */@font-face {
@@ -211,7 +211,7 @@
          url('fonts/Lato-ThinItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: LatoLatin-Black */@font-face {
@@ -223,7 +223,7 @@
          url('fonts/LatoLatin-Black.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: LatoLatin-BlackItalic */@font-face {
@@ -235,7 +235,7 @@
          url('fonts/LatoLatin-BlackItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: LatoLatin-Bold */@font-face {
@@ -247,7 +247,7 @@
          url('fonts/LatoLatin-Bold.ttf') format('truetype');
     font-style: normal;
     font-weight: bold;
-    text-rendering: optimizeLegibility;
+    
 }
 
 /* Webfont: LatoLatin-BoldItalic */@font-face {
@@ -259,7 +259,7 @@
          url('fonts/LatoLatin-BoldItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: bold;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: LatoLatin-Hairline */@font-face {
@@ -271,7 +271,7 @@
          url('fonts/LatoLatin-Hairline.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: LatoLatin-HairlineItalic */@font-face {
@@ -283,7 +283,7 @@
          url('fonts/LatoLatin-HairlineItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: LatoLatin-Heavy */@font-face {
@@ -295,7 +295,7 @@
          url('fonts/LatoLatin-Heavy.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: LatoLatin-HeavyItalic */@font-face {
@@ -307,7 +307,7 @@
          url('fonts/LatoLatin-HeavyItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: LatoLatin-Italic */@font-face {
@@ -319,7 +319,7 @@
          url('fonts/LatoLatin-Italic.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: LatoLatin-Light */@font-face {
@@ -331,7 +331,7 @@
          url('fonts/LatoLatin-Light.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: LatoLatin-LightItalic */@font-face {
@@ -343,7 +343,7 @@
          url('fonts/LatoLatin-LightItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: LatoLatin-Medium */@font-face {
@@ -355,7 +355,7 @@
          url('fonts/LatoLatin-Medium.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: LatoLatin-MediumItalic */@font-face {
@@ -367,7 +367,7 @@
          url('fonts/LatoLatin-MediumItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: LatoLatin-Regular */@font-face {
@@ -379,7 +379,7 @@
          url('fonts/LatoLatin-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: LatoLatin-Semibold */@font-face {
@@ -391,7 +391,7 @@
          url('fonts/LatoLatin-Semibold.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: LatoLatin-SemiboldItalic */@font-face {
@@ -403,7 +403,7 @@
          url('fonts/LatoLatin-SemiboldItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: LatoLatin-Thin */@font-face {
@@ -415,7 +415,7 @@
          url('fonts/LatoLatin-Thin.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }
 
 /* Webfont: LatoLatin-ThinItalic */@font-face {
@@ -427,5 +427,5 @@
          url('fonts/LatoLatin-ThinItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
-    text-rendering: optimizeLegibility;
+
 }

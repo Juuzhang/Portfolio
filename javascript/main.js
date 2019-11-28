@@ -11,3 +11,5 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
+
+// Gary Li, my TA, has helped me with debugging this Javascript function.
