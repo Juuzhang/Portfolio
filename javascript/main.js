@@ -1,12 +1,13 @@
-<script>
+
 var prevScrollpos = window.pageYOffset;
+
 window.onscroll = function() {
+  console.log("Here");
 var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementsByTagName("header").style.top = "0";
+    document.getElementById("nav").style.top = "0";
   } else {
-    document.getElementsByTagName("header").style.top = "-50px";
+    document.getElementById("nav").style.top = "-5em";
   }
   prevScrollpos = currentScrollPos;
 }
-</script>

@@ -13,6 +13,7 @@ header {
   background-color: #253B59;
   height: 3em;
   z-index: 99999;
+  transition: top 1s;
 }
 
 nav {
@@ -70,6 +71,10 @@ nav ul li a:active, nav ul li a:hover, nav ul li a:focus {
   nav {
     display: none;
     height: auto;
+  }
+
+  nav ul li a {
+    width: 100%;
   }
 
   #hamburger {
@@ -134,11 +139,21 @@ nav ul li a:active, nav ul li a:hover, nav ul li a:focus {
 /* BODY CONTAINER ////////////////////////////////////////////////////////////// */
 .container {
   position: relative;
-  padding-top: 1em;
+  padding-top: 3em;
   padding-left: 5%;
   padding-right: 5%;
   content: "";
-  min-height: 300px;
+  min-height: 40em;
+  width: 100%;
+}
+
+.containerAbout {
+  position: relative;
+  padding-top: 3em;
+  padding-left: 5%;
+  padding-right: 5%;
+  content: "";
+  min-height: 20em;
   width: 100%;
 }
 
@@ -150,7 +165,7 @@ nav ul li a:active, nav ul li a:hover, nav ul li a:focus {
   background: rgb(242, 196, 155);
   background: linear-gradient(148deg, rgba(242, 196, 155, 1) 0%, rgba(242, 167, 167, 1) 47%);
   width: 100%;
-  height: 40em;
+  height: 100vh;
 }
 
 body {
@@ -160,6 +175,8 @@ body {
   margin: 0;
   color: #253B59;
   background-color: #F2F2F2;
+  overflow: scroll;
+  overflow-x: hidden;
   /*off-white colour*/
 }
 
@@ -168,7 +185,17 @@ body {
     position: relative;
     padding: 3rem;
     content: "";
-    min-height: 700px;
+    min-height: 50em;
+    width: 100%;
+  }
+
+  .containerAbout {
+    position: relative;
+    padding-top: 3em;
+    padding-left: 5%;
+    padding-right: 5%;
+    content: "";
+    min-height: 30em;
     width: 100%;
   }
 }
@@ -177,6 +204,34 @@ body {
 #bannerSVG {
   position: absolute;
   padding: 0;
+}
+
+/* BANNER IMAGE ///////////////////////////////////////////////////////////// */
+.ProjectBanner {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProjectBannerImage {
+  height: 50%;
+  width: 100%;
+}
+
+.ProjectBannerImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.headline {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  font-size: 3em;
+  transform: translate(-20%, -70%);
+  color: white;
 }
 
 /* GENERAL TAGS, TAG CLASSES ////////////////////////////////////////////////////////////// */
@@ -190,6 +245,11 @@ h2 {
 
 h3 {
   font-family: "LatoWebSemibold", sans-serif;
+}
+
+h4 {
+  font-family: "LatoWebSemibold", sans-serif;
+  margin-top: 0;
 }
 
 strong {
@@ -221,7 +281,9 @@ strong {
 }
 
 .column1Image {
+  background-color: #63bbab;
   float: left;
+  padding-left: 3em;
   padding-right: 2em;
   width: 49%;
 }
@@ -229,6 +291,7 @@ strong {
 .column2 {
   float: left;
   width: 49%;
+  padding-left: 2em;
 }
 
 #SkillsColumnDiv {
@@ -236,22 +299,81 @@ strong {
   color: white;
   padding: 4em;
   background: linear-gradient(148deg, rgba(242, 196, 155, 1) 0%, rgba(242, 167, 167, 1) 47%);
-  height: 40em;
+  height: 35em;
 }
 
 .SkillsBox {
   padding-top: 2em;
   padding-left: 2em;
+  clear: both;
 }
 
 .SkillsColumn1 {
   float: left;
-  width: 33%;
+  width: 25%;
+  height: 25em;
 }
 
 .SkillsColumn2 {
   float: left;
-  width: 33%;
+  width: 25%;
+  height: 25em;
+}
+
+.projectIntro {
+  width: 100%;
+  height: 25em;
+}
+
+.projectContainer {
+  position: relative;
+  padding-top: 3em;
+  content: "";
+  min-height: 40em;
+  width: 100%;
+}
+
+.projectColumn1 {
+  padding-top: 2em;
+  float: left;
+  width: 50%;
+}
+
+.projectColumn1 p {
+  width: 75%;
+}
+
+.projectColumn2 {
+  position: absolute;
+  right: 0;
+}
+
+.projectColumn {
+  background-color: #63bbab;
+  color: white;
+  float: left;
+  padding-left: 5em;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  clear: both;
+}
+
+#TripLink {
+  background-color: #F26D6D;
+}
+
+#SeacoastMarineLink {
+  background-color: #253b59;
+}
+
+#YorkHouseLink {
+  background-color: #215732;
+}
+
+#WildThingsLink {
+  background-color: #FF708D;
 }
 
 @media only screen and (max-width: 746px) {
@@ -272,9 +394,10 @@ strong {
     width: 100%;
   }
 
-#SkillsColumnDiv{
-  height: 50em;
-}
+  #SkillsColumnDiv {
+    height: 50em;
+    padding: 2em;
+  }
 
   .SkillsColumn1 {
     width: 50%;
@@ -282,13 +405,12 @@ strong {
 
   .SkillsColumn2 {
     width: 50%;
+    padding-left: 2em;
   }
 
   .banner {
     display: block;
   }
-
-
 
   #bannerTextContainer {
     display: none;
@@ -315,6 +437,50 @@ strong {
     color: white;
     text-align: center;
   }
+
+  .projectColumn {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .projectColumn1 {
+    position: relative;
+    float: left;
+    content: "";
+    clear: both;
+    width: 100%;
+  }
+
+  .projectColumn1 p {
+    width: 100%;
+  }
+
+  .projectColumn2 {
+    position: relative;
+    margin-top: 1em;
+    float: left;
+    content: "";
+    clear: both;
+    width: 100%;
+  }
+
+  #SeacoastMarineLink img {
+    width: 100%;
+    height: 20em;
+  }
+
+  .parkaid_gifs {
+    width: 45%;
+    height: 20em;
+  }
+
+  #wildthingsVideo{
+    width:auto;
+    height: 400px;
+  }
 }
 
 @media only screen and (min-width: 746px) {
@@ -325,7 +491,6 @@ strong {
   #bannerMobileTextParagraph {
     display: none;
   }
-
 }
 
 /* DIV IDS ////////////////////////////////////////////////////////////// */
@@ -443,10 +608,22 @@ h1, h2, h3 {
 }
 
 /* DIV CLASSES////////////////////////////////////////////////////////////// */
+.Unavailable {
+  float: left;
+  text-align: center;
+  width: 18em;
+  padding: 1em;
+  background-color: grey;
+  color: white;
+  border: solid;
+  border-color: white;
+  height: 10em;
+}
+
 .ProjectBoxes {
   float: left;
   text-align: center;
-  width: 24em;
+  width: 18em;
   padding: 1em;
   background-color: #F2A7A7;
   color: white;
@@ -487,17 +664,40 @@ footer li a {
 /* BUTTON ELEMENTS ////////////////////////////////////////////////////////////// */
 .button-nav {
   display: inline-block;
-  padding: 0.5rem;
+  padding: 14px 28px;
   color: white;
-  background-color: #F2C49B;
+  border: 2px solid black;
+  border-color: #F2C49B;
+  border-radius: 12px;
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
+}
+#contact {
+  float: right;
+  background-color: #F2C49B;
+}
+
+#example {
+    background-color: #F2C49B;
 }
 
 .button-nav:hover, .button-nav:focus {
   background-color: #F2A7A7;
   color: white;
+  border-color: #F2A7A7;
+}
+
+#contact:hover, #contact:focus {
+  background-color: #F2A7A7;
+  color: white;
+  border-color: #F2A7A7;
+}
+
+#example:hover, #example:focus {
+  background-color: #F2A7A7;
+  color: white;
+  border-color: #F2A7A7;
 }
 
 /* CODE SECTION ////////////////////////////////////////////////////////////// */
