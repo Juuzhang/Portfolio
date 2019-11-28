@@ -204,6 +204,7 @@ body {
 #bannerSVG {
   position: absolute;
   padding: 0;
+
 }
 
 /* BANNER IMAGE ///////////////////////////////////////////////////////////// */
@@ -276,6 +277,14 @@ strong {
   position: relative;
   float: left;
   width: 49%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.column{
+  position: relative;
+  float: left;
+  width: 100%;
   padding-left: 2rem;
   padding-right: 2rem;
 }
