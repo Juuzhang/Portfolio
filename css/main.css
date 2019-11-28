@@ -385,6 +385,30 @@ strong {
   background-color: #FF708D;
 }
 
+#SeacoastMarineLink img {
+  float: right;
+  width: 45%;
+  height: 20em;
+}
+
+#YorkHouseLink img {
+  float:right;
+  width: 25%;
+  height: 20em;
+}
+
+.parkaid_gifs {
+  float:right;
+  width: 30%;
+  height: 30em;
+}
+
+#WildThingsLink img{
+  float: right;
+  width: 40%;
+  height: 20em;
+}
+
 @media only screen and (max-width: 746px) {
   .container {
     padding-left: 2em;
@@ -481,14 +505,20 @@ strong {
     height: 20em;
   }
 
-  .parkaid_gifs {
-    width: 45%;
+#YorkHouseLink img {
+    width: 49%;
     height: 20em;
   }
 
-  #wildthingsVideo{
-    width:auto;
-    height: 400px;
+  .parkaid_gifs {
+    width: 35%;
+    height: 20em;
+
+  }
+
+  #WildThingsLink img{
+    width: 100%;
+    height: 20em;
   }
 }
 
